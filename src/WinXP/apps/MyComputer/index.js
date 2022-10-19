@@ -221,60 +221,11 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__left__card__content">
                 <div className="com__content__left__card__row">
-                  <iframe
-                    title="ghbtn"
-                    style={{ margin: '0 0 3px -1px', height: '30px' }}
-                    src="https://ghbtns.com/github-btn.html?user=ShizukuIchi&repo=winXP&type=star&count=true&size=large"
-                    frameBorder="0"
-                    scrolling="0"
-                    width="170px"
-                    height="20px"
-                  />
-                </div>
-                <div className="com__content__left__card__row">
-                  <img
-                    className="com__content__left__card__img"
-                    src="https://cdn.iconscout.com/icon/free/png-256/medium-1425876-1205067.png"
-                    alt="control"
-                  />
-                  <ga.OutboundLink
-                    eventLabel="https://medium.com/@ShizukuIchi"
-                    to="https://medium.com/@ShizukuIchi"
-                    className="com__content__left__card__text link"
-                    target="_blank"
-                  >
-                    Medium
-                  </ga.OutboundLink>
-                </div>
-                <div className="com__content__left__card__row">
-                  <img
-                    className="com__content__left__card__img"
-                    src="https://image.flaticon.com/icons/png/128/179/179312.png"
-                    alt="control"
-                  />
-                  <ga.OutboundLink
-                    eventLabel="https://sh1zuku.csie.io/blog"
-                    to="https://sh1zuku.csie.io/blog"
-                    className="com__content__left__card__text link"
-                    target="_blank"
-                  >
-                    Blog
-                  </ga.OutboundLink>
-                </div>
-                <div className="com__content__left__card__row">
                   <img
                     className="com__content__left__card__img"
                     src={mine}
                     alt="control"
                   />
-                  <ga.OutboundLink
-                    eventLabel="https://github.com/ShizukuIchi/minesweeper"
-                    to="https://github.com/ShizukuIchi/minesweeper"
-                    className="com__content__left__card__text link"
-                    target="_blank"
-                  >
-                    Minesweeper(mobile)
-                  </ga.OutboundLink>
                 </div>
               </div>
             </div>
@@ -355,8 +306,8 @@ function MyComputer({ onClose }) {
               </div>
               <div className="com__content__right__card__content">
                 <ga.OutboundLink
-                  eventLabel="https://github.com/ShizukuIchi"
-                  to="https://github.com/ShizukuIchi"
+                  eventLabel="@codingsh"
+                  to="https://github.com/developerfred"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
@@ -365,22 +316,33 @@ function MyComputer({ onClose }) {
                     src={logo}
                     alt="control"
                   />
-                  <div className="com__content__right__card__text">Github</div>
+                  <div className="com__content__right__card__text">@codingsh Github</div>
                 </ga.OutboundLink>
                 <ga.OutboundLink
-                  eventLabel="https://sh1zuku.csie.io"
-                  to="https://sh1zuku.csie.io"
+                  eventLabel="swarm"
+                  to="https://www.ethswarm.org/"
                   className="com__content__right__card__item--me"
                   target="_blank"
                 >
                   <img
                     className="com__content__right__card__img"
-                    src="https://a.ppy.sh/2926513_1448497605.png"
+                    src={`https://fairdataprotocol.bzz.link/uploads/2022/10/03/swarm.svg`}
                     alt="control"
                   />
-                  <div className="com__content__right__card__text">
-                    My Website
-                  </div>
+                  <div className="com__content__right__card__text">swarm</div>
+                </ga.OutboundLink>
+                <ga.OutboundLink
+                  eventLabel="fairdatasociety"
+                  to="https://fairdatasociety.org/"
+                  className="com__content__right__card__item--me"
+                  target="_blank"
+                >
+                  <img
+                    className="com__content__right__card__img"
+                    src={`https://fairdataprotocol.bzz.link/uploads/2022/10/03/swarm.svg`}
+                    alt="control"
+                  />
+                  <div className="com__content__right__card__text">swarm</div>
                 </ga.OutboundLink>
               </div>
             </div>
